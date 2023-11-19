@@ -1,0 +1,14 @@
+1)
+cat /etc/services | grep udp | grep "^kerberos" | grep -v server
+grep udp /etc/services | grep "^kerberos" | grep -v server
+
+2)
+cat /etc/rsyslog.conf | grep "^$" |  wc -l
+ grep "^$" /etc/rsyslog.conf |  wc -l
+
+3)
+cat /etc/services | grep  "^[a-d]" | sort
+
+4)
+ cat /etc/services | grep "[gl]ate"
+ grep "[gl]ate" /etc/services
